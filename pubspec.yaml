@@ -1,0 +1,20 @@
+name: haptic_feedback_ohos
+description: A Flutter plugin for haptic feedback on HarmonyOS (OHOS).
+version: 1.0.0
+homepage: https://github.com/Nexus6741/haptic_feedback_ohos
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      ohos:
+        dartPluginClass: HapticFeedbackOhosPlugin
+        pluginClass: HapticFeedbackOhosPlugin
+        filePrefix: haptic_feedback_ohos

@@ -1,0 +1,9 @@
+# Build outputs
+ohos/build/
+ohos/oh_modules/
+ohos/BuildProfile.ets
+ohos/oh-package-lock.json5
+
+# IDE
+.idea/
+*.iml

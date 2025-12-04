@@ -1,0 +1,11 @@
+{
+  "name": "haptic_feedback_ohos",
+  "version": "1.0.0",
+  "description": "HarmonyOS haptic feedback plugin",
+  "main": "index.ets",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ohos/flutter_ohos": "file:./oh_modules/@ohos/flutter_ohos"
+  }
+}
